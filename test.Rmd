@@ -1,0 +1,37 @@
+---
+title: "RMD Template"
+author: "Anders Wiberg Olsen"
+date: "2017-10-25"
+output: html_document
+---
+
+# RMD Template
+
+Let's load the `knitr` library and set the working directory:
+
+```{R}
+# Load library
+library(knitr)
+
+## Set working directory
+setwd(".")
+```
+
+Let's read `test.R`
+
+```{R}
+read_chunk('test.R')
+<<workdir>>
+```
+
+Let's execute something without outputting to script:
+
+```{R, echo = FALSE}
+<<helloworld>>
+```
+
+And without outputting anything:
+
+```{R, include = FALSE}
+<<helloworld>>
+```
