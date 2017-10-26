@@ -26,3 +26,7 @@ R -e "rmarkdown::render('test.Rmd')"
 
 Open in RStudio and use knitr to preview.
 
+## Sources
+
+* <http://kbroman.org/knitr_knutshell/pages/Rmarkdown.html>
+* <https://www.zevross.com/blog/2014/07/09/making-use-of-external-r-code-in-knitr-and-r-markdown/> - advanced includes
